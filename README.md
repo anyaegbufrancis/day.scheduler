@@ -1,20 +1,8 @@
-# 05 Third-Party APIs: Work Day Scheduler
+## BRIEF DISCRIPTION
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+In this project, browser based Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.  This is completely browser based, heavily employs Javascript and JQuery in its logic and CSS and HTML in presentation. Local storage is employed as a placeholder for non critical data.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
-
-## User Story
-
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-
-## Acceptance Criteria
-
-```
+## REQUIREMENT
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -28,19 +16,36 @@ WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
-```
 
-The following animation demonstrates the application functionality:
+## APPROACH
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+The approach adopted is as follows:
 
-## Review
+1. A pseudocode was developed in a rough sketch, itemizing the concepts, fuctions, the variables and how they will beconsumed.
+2. The base HTML pages are coded.
+3. Basic styling was applied to differentiate the codes.
+4. Tags are applied to each object/element that needs to be targeted to achieve a particular feature.
+5. Each base function was coded using Javascript and JQUERY maily.
+6. Error checking and fail conditions are checked in the logic and bugs fixed.
+7. Naming, Tagging and references are updated to reflect updated logic.
+8. Final polishing was applied using CSS.
+9. Code was refactored and restested.
+10. Few more features were added and old features are optimized.
+11. Final code was uploaded to github
 
-You are required to submit the following for review:
+## GENERAL DESCRIPTION
 
-* The URL of the deployed application.
+The finished work is made up of the following:
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+1. One main landing HTML page (index.html).
+2. One calendar logic HTML page (scripts.js)
+3. One styling sheet ( style.css)
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## RELEVANT POINTS
+
+- Local Storage was employed as placeholder for values in this project.
+- Local system time is the source of ALL references to time.
+- Functions are employed whereever possible to make the product a bit modular.
+- I had a close look at moment.js but tried my hands on hacking newDate() to extract similar values.
+
+
