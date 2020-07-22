@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="refresh" content="60">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js" defer></script>
+  <title>Day Scheduler</title>
+</head>
+
+<body class="dashboardBody" onload="startTime()">
+  <div class="schedule-page" >
+    <div class="jumbotron">
+      <h1 class="text-center" id="title">Work Day Scheduler</h1>
+      <div class="day-details">        
+      <h5 class="dater" id="dater1"></h5>
+      <h5 class="dater" id="dater2"></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="answer">
+        <div class="input-group mb-3" id="check2">
+          <div class="input-group-prepend">
+            <span class="input-group-text left-time" id="left-time-0"></span>
+          </div>
+          <input type="textbox" class="form-control form-control-1" id="option-area-0" name="choice1" >
+          <div class="input-group-append">
+            <span class="input-group-text saver-0" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
+          </div>
+        </div>
+        <div class="input-group mb-3" id="check2">
+          <div class="input-group-prepend">
+            <span class="input-group-text left-time" id="left-time-1"></span>
+          </div>
+          <input type="textbox" class="form-control form-control-1" id="option-area-1" name="choice1">
+          <div class="input-group-append">
+            <span class="input-group-text saver-1" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
+          </div>
+        </div>
+        <div class="input-group mb-3" id="check2">
+          <div class="input-group-prepend">
+            <span class="input-group-text left-time" id="left-time-2"></span>
+          </div>
+          <input type="textbox" class="form-control form-control-1" id="option-area-2" name="choice1">
+          <div class="input-group-append">
+            <span class="input-group-text saver-2" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
+          </div>
+        </div>
+        <div class="input-group mb-3" id="check2">
+          <div class="input-group-prepend">
+            <span class="input-group-text left-time" id="left-time-3"></span>
+          </div>
+          <input type="textbox" class="form-control form-control-1" id="option-area-3" name="choice1">
+          <div class="input-group-append">
+            <span class="input-group-text saver-3" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
+          </div>
+        </div>
+        <div class="input-group mb-3" id="check2">
+          <div class="input-group-prepend">
+            <span class="input-group-text left-time"  id="left-time-4"></span>
+          </div>
+          <input type="textbox" class="form-control form-control-1" id="option-area-4" name="choice1">
+          <div class="input-group-append">
+            <span class="input-group-text saver-4" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
+          </div>
+        </div>
+
+        <div class="input-group mb-3" id="check2">
+          <div class="input-group-prepend">
+            <span class="input-group-text left-time" id="left-time-5"></span>
+          </div>
+          <input type="textbox" class="form-control form-control-1" id="option-area-5" name="choice1">
+          <div class="input-group-append">
+            <span class="input-group-text saver-5" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
+          </div>
+        </div>
+        <div class="input-group mb-3" id="check2">
+          <div class="input-group-prepend">
+            <span class="input-group-text left-time" id="left-time-6"></span>
+          </div>
+          <input type="textbox" class="form-control form-control-1" id="option-area-6" name="choice1">
+          <div class="input-group-append">
+            <span class="input-group-text saver-6" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
+          </div>
+        </div>
+
+        <div class="input-group mb-3" id="check2">
+          <div class="input-group-prepend">
+            <span class="input-group-text left-time" id="left-time-7"></span>
+          </div>
+          <input type="textbox" class="form-control form-control-1" id="option-area-7" name="choice1">
+          <div class="input-group-append">
+            <span class="input-group-text saver-7" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
+          </div>
+        </div>
+        <div class="input-group mb-3" id="check2">
+          <div class="input-group-prepend">
+            <span class="input-group-text left-time" id="left-time-8"></span>
+          </div>
+          <input type="textbox" class="form-control form-control-1" id="option-area-8" name="choice1">
+          <div class="input-group-append">
+            <span class="input-group-text saver-8" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
+          </div>
+        </div>        
+      </div>
+    </div>
+    <button type="button" class="btn btn-lg clear-button">Clear Schedule</button>
+  </div>  
+  <br>
+  <br>
+  <br> 
+</body>
+</html>

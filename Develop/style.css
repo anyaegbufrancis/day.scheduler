@@ -1,0 +1,92 @@
+/*Global Styling*/
+body {
+  height: 80vh;
+}
+.jumbotron {
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.viewheight {
+  height: 65vh;
+}
+.container {
+  text-align: center;
+  zoom: 0.85;
+}
+
+#saver:hover {
+background-color: #89db15;
+outline: none;
+}
+
+/*Styling the question area*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#check2 {
+  margin-top: 0px;
+  margin-bottom: 0px !important;
+  z-index: 10;
+  height: 65px;
+}
+
+#saver {
+  width: 70px;
+  padding-left: 20px;
+  background-color: #AB962E;
+  border-radius: 0px 10px 10px 0px;
+  margin-bottom: 0.2px !important;  
+}
+#floppy {
+  zoom: 1.5;
+}
+.left-time {
+  background-color: white !important; 
+  border-radius: 10px 0px 0px 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#title {
+  font-size: 80px;
+  padding-top: 25px;
+  color: brown;
+  font-weight: bolder;
+}
+
+.schedule-page {
+  margin-bottom: 40px;
+}
+
+.day-details {
+  text-align: center;
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+
+#dater1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+#dater2{
+  font-size: 35px;
+  font-weight: bolder;
+  color: rgb(6, 6, 22); 
+}
+.form-control-1 {
+  font-size: 28px;
+  color: black;
+  font-style: italic;
+}
+.clear-button {
+  margin-top: 25px;
+  font-weight: bold;
+  border: solid burlywood 5px;
+  border-radius: 15px;
+  background-color: #3F3829 ;
+  color: bisque;
+}
+
+
