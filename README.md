@@ -38,7 +38,7 @@ The approach adopted is as follows:
 The finished work is made up of the following:
 
 1. One main landing HTML page (index.html).
-2. One calendar logic HTML page (scripts.js)
+2. One calendar logic page (scripts.js)
 3. One styling sheet ( style.css)
 
 ## RELEVANT POINTS
