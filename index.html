@@ -11,7 +11,7 @@
   <script src="scripts.js" defer></script>
   <title>Day Scheduler</title>
 </head>
-
+<!--HTML Body containing all elements-->
 <body class="dashboardBody" onload="startTime()">
   <div class="schedule-page" >
     <div class="jumbotron">
@@ -22,7 +22,7 @@
       </div>
     </div>
   </div>
-
+  <!-- Wrapping all timeblocks and reset button in a container-->
   <div class="container">
     <div class="row">
       <div class="col-md-12" id="answer">
@@ -71,7 +71,6 @@
             <span class="input-group-text saver-4" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
           </div>
         </div>
-
         <div class="input-group mb-3" id="check2">
           <div class="input-group-prepend">
             <span class="input-group-text left-time" id="left-time-5"></span>
@@ -90,7 +89,6 @@
             <span class="input-group-text saver-6" id="saver"><i class="fa fa-floppy-o fa-lg" id="floppy" aria-hidden="false"></i></span>
           </div>
         </div>
-
         <div class="input-group mb-3" id="check2">
           <div class="input-group-prepend">
             <span class="input-group-text left-time" id="left-time-7"></span>
@@ -111,6 +109,7 @@
         </div>        
       </div>
     </div>
+    <!-- The 'Clear Schedule button -->
     <button type="button" class="btn btn-lg clear-button">Clear Schedule</button>
   </div>  
   <br>

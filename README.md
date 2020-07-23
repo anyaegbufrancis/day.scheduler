@@ -45,7 +45,8 @@ The finished work is made up of the following:
 
 - Local Storage was employed as placeholder for values in this project.
 - Local system time is the source of ALL references to time.
-- Functions are employed whereever possible to make the product a bit modular.
+- Functions are employed wherever possible to make the product a bit modular.
 - I had a close look at moment.js but tried my hands on hacking newDate() to extract similar values.
+- There was not outright requirement to stop updating past timeblocks. This can easily be applied by updating scripts.js line 98 to true.
 
 
