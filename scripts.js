@@ -21,7 +21,7 @@ var timeArr = ["09AM", "10AM", "11AM", "12PM", "01PM", "02PM", "03PM", "04PM", "
 
 //Function that prints the day's date
 function todayDate () {
-    var dateFormat = dayArr[dayIndex] + ' , ' + thisDay + ' ' + monthArr[thisMonth] + ' ' + thisYear + '.'
+    var dateFormat = dayArr[dayIndex] + ' , ' + thisDay + ' ' + monthArr[thisMonth] + ' ' + thisYear;
     $('#dater1').text(dateFormat);
 };
 
