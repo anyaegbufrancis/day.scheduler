@@ -20,7 +20,7 @@ THEN the saved events persist
 
 <img src='./dashboard.png'/>
 
-# Link To Project:
+# Link To Project Demo:
 
 Please click [here](https://anyaegbufrancis.github.io/day.scheduler/) to view the github hosted project.
 
